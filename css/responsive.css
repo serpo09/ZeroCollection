@@ -1,0 +1,374 @@
+@media (max-width: 1024px) {
+  ul li {
+    padding: 0 20px;
+  }
+  .summer-collection {
+    margin-inline: 4rem;
+  }
+  .brand-name {
+    margin: 2rem 1rem;
+  }
+  .social-pic {
+    height: 500px;
+  }
+  .social-pic img {
+    height: 100%;
+  }
+
+  .footer-brand {
+    padding: 4rem 0.4rem;
+  }
+  .footer-brand img {
+    height: 45px;
+  }
+  .footer-brand .icons i {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0 0.8rem;
+  }
+  .footer-info {
+    padding: 2rem;
+  }
+  .footer-info .support {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+  ul {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
+
+  .hero_section h1 {
+    margin-bottom: 3rem;
+  }
+  .heading::before {
+    width: 15%;
+  }
+  .heading::after {
+    width: 15%;
+  }
+  .trend-info {
+    padding: 6rem 4rem 4rem;
+  }
+  .summer-bg {
+    background-position: center center;
+  }
+  .summer-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-block: 7rem;
+    margin-inline: 2rem;
+    /* border: 2px solid; */
+    height: 1200px;
+  }
+  .summer-collection-bg {
+    height: 400px;
+  }
+  .summer-collection-info {
+    height: 400px;
+  }
+  .summer-collection-video {
+    height: 400px;
+  }
+  .brand-name-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social-info {
+    padding: 0rem 1rem;
+  }
+  .social-pic {
+    height: 400px;
+  }
+  .social-pic img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .discount-container p {
+    max-width: 80%;
+  }
+  .discount-container input {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .footer-brand {
+    padding: 4rem 0.4rem;
+  }
+  .footer-brand img {
+    height: 45px;
+  }
+  .footer-brand .icons i {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0 0.8rem;
+  }
+  .footer-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+  .footer-info .support {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+  .bar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+  }
+
+  .topfooter .offer {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid; */
+  }
+  .topfooter .socialMedia {
+    width: 100%;
+    display: block;
+    text-align: center;
+    /* border: 2px solid; */
+  }
+
+  nav {
+    display: block;
+    height: 100vh;
+    background-color: #0000009d;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    left: -100%;
+    transition: var(--transition-time);
+  }
+  /* nav.show {
+    left: 0;
+  } */
+  .logo {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    z-index: 99;
+  }
+  ul {
+    color: #fff;
+    display: block;
+  }
+  ul li {
+    padding: 10px;
+  }
+  .hero_section h2 {
+    font-size: 2.5rem;
+  }
+  .hero_section h1 {
+    font-size: 2.6rem;
+  }
+  .img-container {
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+  .img-container img {
+    height: 180px;
+    margin: 1rem auto;
+    object-fit: cover;
+  }
+  .trending-container {
+    margin-top: 2.5rem;
+  }
+  .heading::before {
+    display: none;
+  }
+  .heading::after {
+    display: none;
+  }
+  .booster-section {
+    margin: 4rem auto 2.2rem;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  .booster-info {
+    font-size: 2rem;
+  }
+
+  .summer-trend {
+    margin-top: 8rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .trend-info {
+    padding: 4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .trend-info p {
+    text-align: center;
+  }
+  .summer-bg {
+    background-position: center center;
+  }
+  .summer-collection {
+    height: 1500px;
+  }
+  .summer-collection-info {
+    height: 600px;
+  }
+  .brand-container {
+    padding: 2rem 1rem;
+  }
+  .brand-name {
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    margin: 1rem;
+  }
+  .brand-name a {
+    font-size: 1rem;
+  }
+  .social-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 10rem;
+  }
+  .social-info {
+    padding: 3rem;
+  }
+  .social-pic {
+    height: 550px;
+  }
+  .social-pic img {
+    height: 100%;
+  }
+  .discount-container {
+    margin-top: 4rem;
+  }
+  .discount-container p {
+    max-width: 100%;
+  }
+  .discount-container input {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+ /* Footer */
+  .footer-brand {
+    padding: 4rem 0.4rem;
+  }
+  .footer-brand img {
+    height: 45px;
+  }
+  .footer-brand .icons i {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0 0.8rem;
+  }
+  .footer-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+  .footer-info .support {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 430px) {
+}
+
+@media (max-width: 380px) {
+  .topfooter .offer {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid; */
+  }
+  .topfooter .socialMedia {
+    width: 100%;
+    display: block;
+    text-align: center;
+    /* border: 2px solid; */
+  }
+
+  nav {
+    display: block;
+    height: 100vh;
+    background-color: #0000009d;
+    backdrop-filter: blur(5px);
+    width: 100%;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    z-index: 99;
+  }
+  ul {
+    color: #fff;
+    display: block;
+  }
+  ul li {
+    padding: 10px;
+  }
+  .brand-container {
+    padding: 2rem 1rem;
+  }
+  .brand-name {
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+    margin: 0.5rem;
+  }
+  .brand-name a {
+    font-size: 0.8rem;
+  }
+  .discount-container {
+    margin-top: 4rem;
+  }
+  .discount-container p {
+    max-width: 100%;
+  }
+  .discount-container input {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 280px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+}
